@@ -23,7 +23,7 @@ body {
 }
 
 header h1 {
-  font-size: 3rem;
+  font-size: 2rem;
   color: black;
   margin-bottom: 20px;
 }
@@ -90,7 +90,7 @@ button:hover {
 
 h3 {
   margin-left: 10px;
-  font-size: 1.7em;
+  font-size: 1.3em;
   color: #550064;
 }
 
