@@ -29,7 +29,7 @@ body {
 }
 
 header h1 {
-  font-size: 3rem;
+  font-size: 2rem;
   margin-bottom: 20px;
   background: linear-gradient(to bottom right, purple 40%, blue, brown);
   -webkit-background-clip: text;
@@ -60,7 +60,7 @@ input[type="text"] {
   background-color: #646cff;
   color: white;
   padding: 12px 80px;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   border: none;
   cursor: pointer;
   transition: transform 0.2s ease, background-color 0.3s ease;
@@ -86,7 +86,7 @@ input[type="text"] {
 
 h3 {
   margin-left: 10px;
-  font-size: 2em;
+  font-size: 1.5em;
   color: #550064;
 }
 
@@ -97,7 +97,7 @@ input[type="checkbox"] {
 }
 
 .filter-button {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   background-color: #646cff;
   padding: 1rem 1.5rem;
   border-radius: 1rem;
@@ -116,7 +116,7 @@ button {
   background-color: #646cff;
   color: white;
   padding: 10px 20px;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   border: none;
   cursor: pointer;
   margin: 0 5px;
