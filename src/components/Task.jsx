@@ -1,4 +1,5 @@
 import React from "react";
+import { motion } from "framer-motion";
 
 const Task = ({ task, toggleComplete, removeTask }) => {
   return (
@@ -11,7 +12,9 @@ const Task = ({ task, toggleComplete, removeTask }) => {
       <h3 style={{ textDecoration: task.completed ? "line-through" : "none" }}>
         {task.text}
       </h3>
-      <button onClick={removeTask}>Remove</button>
+      <motion.button whileTap={{ scale: 0.85 }} onClick={removeTask}>
+        Remove
+      </motion.button>
     </div>
   );
 };

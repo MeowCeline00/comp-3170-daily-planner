@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { motion } from "framer-motion";
 
 const TaskForm = ({ addTask }) => {
   const [taskText, setTaskText] = useState("");
@@ -19,9 +20,13 @@ const TaskForm = ({ addTask }) => {
         value={taskText}
         onChange={(e) => setTaskText(e.target.value)}
       />
-      <button className="btn-primary" type="submit">
+      <motion.button
+        className="btn-primary"
+        type="submit"
+        whileTap={{ scale: 0.85 }}
+      >
         Save
-      </button>
+      </motion.button>
     </form>
   );
 };
