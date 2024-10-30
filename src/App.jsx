@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { motion } from "framer-motion";
 import "./App.css";
 import TaskForm from "./components/TaskForm";
 import Task from "./components/Task";
@@ -51,7 +52,7 @@ function App() {
 
       <TaskForm addTask={addTask} />
 
-      <div>
+      <div className="filter-buttons">
         <FilterButton
           filter="all"
           currentFilter={filter}

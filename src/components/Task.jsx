@@ -12,7 +12,10 @@ const Task = ({ task, toggleComplete, removeTask }) => {
       <h3 style={{ textDecoration: task.completed ? "line-through" : "none" }}>
         {task.text}
       </h3>
-      <motion.button whileTap={{ scale: 0.85 }} onClick={removeTask}>
+      <motion.button 
+        whileTap={{ scale: 0.85 }} 
+        onClick={removeTask} 
+        className="remove-button">
         Remove
       </motion.button>
     </div>
